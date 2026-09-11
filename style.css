@@ -26,3 +26,23 @@ section {
 table {
     border: 1px solid #ccc;
 }
+body {
+    background-color: #FFF4B8;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    text-align: center;
+}
+
+body > p {
+    text-align: center;
+}
+.apresentacao {
+    display: flex;
+    align-items: center;
+}
+
+.foto-perfil {
+    width: 200px;
+    margin-right: 20px;
+}
