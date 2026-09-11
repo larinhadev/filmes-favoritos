@@ -46,3 +46,8 @@ body > p {
     width: 200px;
     margin-right: 20px;
 }
+body {
+    background-color: #FFF4B8;
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
