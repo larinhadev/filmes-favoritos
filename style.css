@@ -4,3 +4,25 @@
 .poster {
     width: 200px;
 }
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    text-align: center;
+    color: #333333;
+}
+h2 {
+    color: #333333;
+}
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+section {
+    margin: 20px;
+    padding: 10px;
+}
+table {
+    border: 1px solid #ccc;
+}
