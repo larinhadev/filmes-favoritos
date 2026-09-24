@@ -18,6 +18,30 @@
      #0070f3); -webkit-background-clip: text; -webkit-text-fill-color: transparent; 
      display: inline-block; cursor: pointer; transition: transform 0.1s ease-out; user-select: none;">
  Filmes Favoritos </h1>
+ <script>
+    const h1 = document.getElementById('moving-title');
+      // Efeito de movimento fluido seguindo o mouse
+    document.addEventListener('mousemove', (e) => {
+        const x = (window.innerWidth / 2 - e.clientX) / 25;
+        const y = (window.innerHeight / 2 - e.clientY) / 25;
+        h1.style.transform = `translate(${x}px, ${y}px) scale(1.02)`;
+    });
+
+    // Retorna ao centro quando o mouse sai da tela
+    document.addEventListener('mouseleave', () => {
+        h1.style.transform = 'translate(0px, 0px) scale(1)';
+    });
+
+    // Efeito de pulso/onda ao clicar
+    h1.addEventListener('click', () => {
+        h1.style.transition = 'transform 0.2s ease';
+        h1.style.transform += ' scale(1.15)';
+        setTimeout(() => {
+            h1.style.transition = 'transform 0.1s ease-out';
+        }, 200);
+    });
+ </script>
+
 
     <p>Uma seleção de filmes que amamos, acompanhada sobre um pouco de cada um deles
         e os motivos pelos quais conquistam um lugar especial entre os nossos favoritos.</p>
