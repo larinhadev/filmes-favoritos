@@ -1,35 +1,44 @@
 .foto-perfil {
     width: 200px;
 }
+
 .poster {
     width: 200px;
 }
+
 body {
     background-color: #f4f4f4;
     font-family: Arial, sans-serif;
 }
+
 h1 {
     text-align: center;
     color: #333333;
 }
+
 h2 {
     color: #333333;
 }
+
 p {
     font-size: 16px;
     line-height: 1.5;
 }
+
 section {
     margin: 20px;
     padding: 10px;
 }
+
 table {
     border: 1px solid #ccc;
 }
+
 body {
     background-color: #FFF4B8;
     font-family: Arial, sans-serif;
 }
+
 h1 {
     text-align: center;
 }
@@ -37,15 +46,18 @@ h1 {
 body > p {
     text-align: center;
 }
+
 .apresentacao {
     display: flex;
     align-items: center;
 }
 
+
 .foto-perfil {
     width: 200px;
     margin-right: 20px;
 }
+
 body {
     background-color: #FFF4B8;
     font-family: Arial, sans-serif;
