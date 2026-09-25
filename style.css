@@ -13,8 +13,12 @@ body {
 
 h1 {
     text-align: center;
-    background-color: #333333;
+    font-family: "Segoe UI", Tahoma, sans-serif;
     font-size: 70px;
+    font-weight: 900;
+    background: linear-gradient(45deg, #ff007f, #7928ca, #0070f3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     padding: 30px;
 }
 
