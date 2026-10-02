@@ -58,6 +58,11 @@ body > p {
     align-items: center;
 }
 
+.info-filme {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
 
 .foto-perfil {
     width: 200px;
