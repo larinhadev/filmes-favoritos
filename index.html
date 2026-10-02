@@ -14,33 +14,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 
-    <style>
-        /* Definindo a fonte padrão e as cores para todo o site */
-         body { font-family: 'Poppins', sans-serif;
-               background-color: #1A1C23; /* Cinza cinema escuro de fundo */ 
-               color: #C5CBD3; /* Cinza claro suave para leitura */
-               margin: 0;
-               padding: 40px; } 
-
-        /* Títulos em Azul Escuro sofisticado (com destaque) */
-        h1, h2, h3 { 
-            color: #1e3a8a; /* Azul escuro elegant*/
-         background-color: #E2E8F0; /* Faixa leve em cinza claro para contraste */
-            padding: 10px 20px; 
-            border-radius: 6px; } 
-
-        * Container de exemplo */ 
-        .card { background-color: #262933; /* Cinza cinema intermediário */
-               padding: 20px; 
-               border-radius: 8px;
-               box-shadow: 0 4px 10px rgba(0,0,0,0.3); 
-                border-left: 4px solid #1e3a8a; /* Detalhe em azul escuro */
-               }
-        p { 
-            line-height: 1.6;
-        }
-        </style>
-
 </head>
 
 <body>
@@ -48,38 +21,14 @@
  <h1 id="moving-title">
  Filmes Favoritos </h1>
 
- <script>
-    const h1 = document.getElementById('moving-title');
-      // Efeito de movimento fluido seguindo o mouse
-    document.addEventListener('mousemove', (e) => {
-        const x = (window.innerWidth / 2 - e.clientX) / 25;
-        const y = (window.innerHeight / 2 - e.clientY) / 25;
-        h1.style.transform = `translate(${x}px, ${y}px) scale(1.02)`;
-    });
-
-    // Retorna ao centro quando o mouse sai da tela
-    document.addEventListener('mouseleave', () => {
-        h1.style.transform = 'translate(0px, 0px) scale(1)';
-    });
-
-    // Efeito de pulso/onda ao clicar
-    h1.addEventListener('click', () => {
-        h1.style.transition = 'transform 0.2s ease';
-        h1.style.transform += ' scale(1.15)';
-        setTimeout(() => {
-            h1.style.transition = 'transform 0.1s ease-out';
-        }, 200);
-    });
- </script>
-
-
     <p>Uma seleção de filmes que amamos, acompanhada sobre<br>
-         um pouco de cada um deles e os motivos pelos quais<br>
-          conquistam um lugar especial entre os nossos favoritos.</p>
+    um pouco de cada um deles e os motivos pelos quais<br>
+    conquistam um lugar especial entre os nossos favoritos.</p>  
+</div>
+
     <hr>
     </hr>
-</div>
-    
+
     <section>
 
         <h2>5 filmes favoritos da Lara</h2>
@@ -569,10 +518,13 @@
         </form>
 
     </section>
+
     <hr>
     </hr>
+
     <br>
     <br>
+
     <footer>
 
         <div class="rodape">
