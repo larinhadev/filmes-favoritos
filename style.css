@@ -48,7 +48,6 @@ nav a:hover::before{
 
 /* Definindo uma cor pro fundo da página */
 body {
-    text-align: center;
     font-family: 'Poppins', sans-serif;
     background-color: #1A1C23;
     color: #C5CBD3;
@@ -71,7 +70,7 @@ h1 {
 h2, h3 { 
     text-align: center;
     color: #1e3a8a;
-    background-color: #E2E8F0;
+    background-color: #6d9edf;
     padding: 10px 20px; 
     border-radius: 6px;
 }
