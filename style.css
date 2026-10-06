@@ -69,10 +69,7 @@ h1 {
 /* Títulos em Azul Escuro sofisticado (com destaque) */
 h2, h3 { 
     text-align: center;
-    color: #1e3a8a;
-    background-color: #6d9edf;
-    padding: 20px 40px; 
-    border-radius: 20px;
+    color: #abbdec;
 }
 
 .inicio {
