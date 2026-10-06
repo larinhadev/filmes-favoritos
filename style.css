@@ -13,37 +13,15 @@ nav ul{
 }
 
 nav a{
-    position: relative;
-    display: block;
-    padding: 12px 22px;
-    border-radius:  999px;
     text-decoration: none;
     color: #ececec;
     font-size: 20px;
     font-weight: 500;
     transition: .35s ease;
-    overflow: hidden;
 }
 
-nav a:hover{
-    color: #fff;
-    transform: translateY(-5px);
-    font-size: 21px;
-}
-
-nav a::before{
-    content: "";
-    position: absolute;
-    inset: 0;
-    border-radius: 999px;
-    background: linear-gradient(135deg,#e4058e,#8b2cff);
-    opacity: 0;
-    z-index: -1;
-    transition: .35s;
-} 
-
-nav a:hover::before{
-    opacity: 1;
+nav a:hover {
+    color: #fa00a7;
 }
 
 /* Definindo uma cor pro fundo da página */
